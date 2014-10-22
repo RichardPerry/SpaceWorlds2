@@ -66,8 +66,8 @@ TextureImporter:
         y: 42
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_1
       rect:
@@ -76,8 +76,8 @@ TextureImporter:
         y: 42
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_2
       rect:
@@ -86,8 +86,8 @@ TextureImporter:
         y: 42
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_3
       rect:
@@ -96,8 +96,8 @@ TextureImporter:
         y: 42
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_4
       rect:
@@ -106,8 +106,8 @@ TextureImporter:
         y: 42
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_5
       rect:
@@ -116,8 +116,8 @@ TextureImporter:
         y: 21
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_6
       rect:
@@ -126,8 +126,8 @@ TextureImporter:
         y: 21
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_7
       rect:
@@ -136,8 +136,8 @@ TextureImporter:
         y: 21
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_8
       rect:
@@ -146,8 +146,8 @@ TextureImporter:
         y: 21
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_9
       rect:
@@ -156,8 +156,8 @@ TextureImporter:
         y: 21
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_10
       rect:
@@ -166,8 +166,8 @@ TextureImporter:
         y: 0
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_11
       rect:
@@ -176,8 +176,8 @@ TextureImporter:
         y: 0
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_12
       rect:
@@ -186,8 +186,8 @@ TextureImporter:
         y: 0
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_13
       rect:
@@ -196,8 +196,8 @@ TextureImporter:
         y: 0
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: beetle_14
       rect:
@@ -206,8 +206,8 @@ TextureImporter:
         y: 0
         width: 16
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
