@@ -3,8 +3,10 @@
 public class PlayerScript : MonoBehaviour
 {
 
-	public Vector2 speed = new Vector2(50,50);
-	private Vector2 movement;
+	public const int speed = 10;
+	private float angle = 0.0f;
+	private float dangle = 0.0f;
+	private float throttle = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -16,13 +18,18 @@ public class PlayerScript : MonoBehaviour
 		var inputX = Input.GetAxis("Horizontal");
 		var inputY = Input.GetAxis("Vertical");
 
-		movement = new Vector2(
-			speed.x * inputX,
-			speed.y * inputY);
+		throttle = speed * inputY;
+		dangle = inputX * -2;
+
+		transform.Rotate(0,0,dangle);
+		transform.FindChild("Main Camera").gameObject.camera.transform.Rotate(0,0,-dangle);
 	}
 
 	void FixedUpdate()
 	{
-		rigidbody2D.velocity = movement;
+		angle += dangle;
+		var x = throttle * -Mathf.Sin(angle * Mathf.Deg2Rad);
+		var y = throttle * Mathf.Cos(angle * Mathf.Deg2Rad);
+		rigidbody2D.velocity = new Vector2(x,y);
 	}
 }
